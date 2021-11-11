@@ -1,0 +1,47 @@
+<html>
+    <html doctype>
+        <title>
+            BridgeLabz
+        </title>
+        <head>
+            
+            <script>
+                document.getElementById("myBtn").addEventListener("click", myFunction);
+                
+                function myFunction() {
+                  alert ("Form Submitted Successfully");
+                }
+                </script>
+                <link rel="stylesheet" href="inputForm.css">
+        </head>
+        <body>
+            <form name="inputForm">
+                <center>
+                    <div class="header"><h1>BRIDGELABZ REGISTRATION FORM</h1></div>
+                <div class="box" id="box-1">
+                    <label for="first_name">First Name</label><br>
+                    <input type="text" name="fname" placeholder="Enter First Name" required><br><br>
+                    <label for="last_name">Last Name</label><br>
+                    <input type="text" name="lname" placeholder="Enter Last Name" required><br><br>
+                    <label for="city">City Name</label><br>
+                    <input type="text" name="city" placeholder="Enter City Name" required><br><br>
+                    <label for="contact">Contact Number</label><br>
+                    <input type="number" name="contact" placeholder="Enter Contact Number" required><br><br>
+                    <label for="mail">Mail ID</label><br>
+                    <input type="mail" name="mail" placeholder="Enter Mail-Id" required><br><br>
+                    <label for="Date">Date</label><br>
+                    <input type="date" name="date" placeholder="Select Date" required><br><br>
+                    <label for="gender">Gender</label><br>
+                    Male &nbsp <input type="radio" id="Male" name='gender' value="Male"> &nbsp&nbsp&nbsp
+                    Female &nbsp <input type="radio" id="Female" name='gender' value="Female"> &nbsp&nbsp&nbsp
+                    Other &nbsp <input type="radio" id="Other" name='gender' value="Other"> <br><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" placeholder="Enter Password" required><br><br>
+                    <button id="myBtn" onclick="myFunction()">Submit</button>
+                </div>
+                </center>
+            </form>
+
+        </body>
+    </html>
+</html>
