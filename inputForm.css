@@ -1,0 +1,14 @@
+
+.header{
+    background-color: rgb(216, 29, 29);
+    color: white;
+}
+.box{
+    background-color: blue;
+    color: white;
+}
+  @media (min-width: 0px) and (max-width: 1000px) {
+    #box-1 {
+      background-color: pink;
+    }
+  }
